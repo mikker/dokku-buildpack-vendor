@@ -1,12 +1,17 @@
 {
   "scripts": {
-    "dev": "nodemon server.js",
+    "dev": "nodemon --exec 'node server.js | pino-colada'",
     "start": "node server.js"
   },
   "dependencies": {
-    "express": "^4.15.2"
+    "mkdirp": "^0.5.1",
+    "pino": "^4.5.1",
+    "pino-colada": "^1.4.0"
   },
   "devDependencies": {
     "nodemon": "^1.11.0"
+  },
+  "engines": {
+    "node": "7.4.0"
   }
 }
