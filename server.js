@@ -42,8 +42,15 @@ http
 
       if (err) throw err
 
-      const readStream = fs.createReadStream(undefined, {fd: fd})
+      pino.info('Cached file found, sending ...')
 
+      const readStream = fs.createReadStream(undefined, {fd: fd})
+      const stat = fs.statSync(localPath)
+
+      res.writeHead(200, {
+        'Content-Type': 'application/x-gzip',
+        'Content-Length': stat.size
+      })
       readStream.pipe(res, {end: true})
     })
   })
