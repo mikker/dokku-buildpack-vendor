@@ -46,10 +46,6 @@ function handle (req, res) {
         pino.error(err)
       })
 
-      get.on('end', () => {
-        pino.info('Done fetching!')
-      })
-
       return
     }
 
