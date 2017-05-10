@@ -966,7 +966,13 @@ pino-colada@^1.4.0:
     pretty-ms "^2.1.0"
     split2 "^2.1.1"
 
-pino@^4.5.1:
+pino-http@^2.6.1:
+  version "2.6.1"
+  resolved "https://registry.yarnpkg.com/pino-http/-/pino-http-2.6.1.tgz#aec7e852ee8f47a089bc4be4614a627d2c302598"
+  dependencies:
+    pino "^4.0.2"
+
+pino@^4.0.2, pino@^4.5.1:
   version "4.5.1"
   resolved "https://registry.yarnpkg.com/pino/-/pino-4.5.1.tgz#28bd6f9588c905c945547ad11bff8aadffdc8009"
   dependencies:
