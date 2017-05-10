@@ -1,7 +1,7 @@
 {
   "scripts": {
     "dev": "nodemon --exec 'node server.js | pino-colada'",
-    "start": "node server.js"
+    "start": "node server.js | pino-colada"
   },
   "dependencies": {
     "mkdirp": "^0.5.1",
