@@ -5,6 +5,8 @@
   },
   "dependencies": {
     "mkdirp": "^0.5.1",
+    "pico": "^0.1.17",
+    "pico-http": "^0.1.0",
     "pino": "^4.5.1",
     "pino-colada": "^1.4.0",
     "pino-http": "^2.6.1"
@@ -13,6 +15,6 @@
     "nodemon": "^1.11.0"
   },
   "engines": {
-    "node": "~> 10"
+    "node": "~> 11"
   }
 }
