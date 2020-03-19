@@ -4,15 +4,15 @@
     "start": "node server.js | pino-colada"
   },
   "dependencies": {
-    "mkdirp": "^0.5.1",
+    "mkdirp": "^1.0.3",
     "pico": "^0.1.17",
     "pico-http": "^0.1.0",
-    "pino": "^5.13.4",
-    "pino-colada": "^1.4.5",
-    "pino-http": "^4.3.0"
+    "pino": "^5.17.0",
+    "pino-colada": "^1.5.1",
+    "pino-http": "^4.4.0"
   },
   "devDependencies": {
-    "nodemon": "^1.19.3"
+    "nodemon": "^2.0.2"
   },
   "engines": {
     "node": "> 11"
